@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .content {
+            padding: 20px;
+        }
+        section {
+            display: none;
+        }
+        #about, #blog, #contact {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <a href="#about" onclick="showSection('about')">About Me</a>
+        <a href="#blog" onclick="showSection('blog')">Blog</a>
+        <a href="#contact" onclick="showSection('contact')">Contact</a>
+    </nav>
+    <div class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is the about me section. Here you can write something about yourself.</p>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>This is the blog section. Here you can write your blog posts.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This is the contact section. Here you can write your contact information.</p>
+        </section>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
