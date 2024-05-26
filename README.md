@@ -112,7 +112,7 @@
                 <img src="C:\Users\Tomáš Knížek\OneDrive\Dokumenty\Personální\Foto\profil_foto.jpg" alt="Profile Photo">
                 <div class="bio">
                     <h2>O mně</h2>
-                    <p>Ahoj! Jmenuji se [Vaše jméno] a vítám vás na mém blogu. Zde píšu o svých zkušenostech, zájmech a všech věcech, které mě zajímají. Doufám, že se vám budou mé příspěvky líbit!</p>
+                    <p>Ahoj! Jmenuji se Tom Knizek a vítám vás na mém blogu. Zde píšu o svých zkušenostech, zájmech a všech věcech, které mě zajímají. Doufám, že se vám budou mé příspěvky líbit!</p>
                 </div>
             </div>
             <h2>Welcome to My Blog</h2>
