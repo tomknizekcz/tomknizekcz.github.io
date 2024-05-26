@@ -66,7 +66,7 @@
     <div class="content">
         <section id="home">
             <h2>O mně</h2>
-            <p>Ahoj! Jmenuji se [Vaše jméno] a vítám vás na mém blogu. Zde píšu o svých zkušenostech, zájmech a všech věcech, které mě zajímají. Doufám, že se vám budou mé příspěvky líbit!</p>
+            <p>Ahoj! Jmenuji se Tom Knizek a vítám vás na mém blogu. Zde píšu o svých zkušenostech, zájmech a všech věcech, které mě zajímají. Doufám, že se vám budou mé příspěvky líbit!</p>
         </section>
         <section id="blog">
             <h2>Blog</h2>
